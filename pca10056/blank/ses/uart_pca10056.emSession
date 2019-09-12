@@ -13,9 +13,11 @@
  <Memory3/>
  <Memory4/>
  <Project>
-  <ProjectSessionItem path="uart_pca10056"/>
-  <ProjectSessionItem path="uart_pca10056;uart_pca10056"/>
-  <ProjectSessionItem path="uart_pca10056;uart_pca10056;Application"/>
+  <ProjectSessionItem path="template_solution"/>
+  <ProjectSessionItem path="template_solution;template_project"/>
+  <ProjectSessionItem path="template_solution;template_project;Application"/>
+  <ProjectSessionItem path="template_solution;template_project;Board Definition"/>
+  <ProjectSessionItem path="template_solution;template_project;nRF_Libraries"/>
  </Project>
  <Register1/>
  <Register2/>
@@ -40,7 +42,9 @@
   <Watches active="0" update="Never"/>
  </Watch4>
  <Files>
-  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="0" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="0" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="9" y="53" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../main.c" selected="1" top="49" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="0" y="86" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../nRF5_SDK_15.3.0_59ac345/components/boards/pca10056.h" selected="0" top="41" codecName="Default"/>
+  <SessionOpenFile windowGroup="DockEditLeft" x="10" y="94" useTextEdit="1" useBinaryEdit="0" left="0" path="../../../../../nRF5_SDK_15.3.0_59ac345/components/boards/pca10059.h" selected="0" top="42" codecName="Default"/>
  </Files>
- <ARMCrossStudioWindow activeProject="uart_pca10056" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Release" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
+ <ARMCrossStudioWindow activeProject="template_project" fileDialogDefaultFilter="*.c" autoConnectTarget="J-Link" buildConfiguration="Debug Dongle" sessionSettings="" debugSearchFileMap="" fileDialogInitialDirectory="" debugSearchPath="" autoConnectCapabilities="3199"/>
 </session>
